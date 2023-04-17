@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj": {}
+    "C:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj": {
+    "C:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj",
         "projectName": "MealMate",
-        "projectPath": "c:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj",
+        "projectPath": "C:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\MealMate.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Downloads\\Compressed\\MealMate-Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
