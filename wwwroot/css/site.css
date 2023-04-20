@@ -52,7 +52,8 @@ form label {
 }
 
 form input[type="email"],
-form input[type="password"] {
+form input[type="password"],
+form input[type="tel number"]  {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
@@ -126,4 +127,22 @@ a:hover{
 }
 .container-fluid{
   height: 35px;
+}
+/*หน้า sign up */
+
+h2{
+  font-weight: bold;
+  transform: translateY(65px);
+}
+
+.wrapper-signup{
+  margin: 50px auto;
+  max-width: 500px;
+  max-height: 800px;
+  height: 500px;
+  margin-top: auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 20px; 
 }
