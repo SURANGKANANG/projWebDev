@@ -6,88 +6,124 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background-image: url('https://sv1.picz.in.th/images/2023/04/18/me8HWS.png');
-  border-top: 40px solid white;
+  background-image: url('https://sv1.picz.in.th/images/2023/04/21/y0qZVb.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    
 }
-
 .display_wrapper{
   display: flex;
   justify-content: center;
 }
 
-.wrapper{
-
-  width: 500px;
-  height: 480px;
-  padding: 5rem 0 4rem 0;
-  margin:50px auto;
-  margin-top:12%;
-  background: #fff;
-  border-radius: 10%;
+/* CSS for image container */
+.image-container {
   text-align: center;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  
+  margin-top: 20px;
 }
-.login_img{
-  width: 20%; /* ให้ความกว้างของ <img> ไม่เกิน 100% ของพื้นที่ของ parent element */
-  height: 20%; /* ปรับความสูงของ <img> ให้เท่ากับอัตราส่วนของความกว้างที่กำหนดไว้ */
-  position: absolute;
-  top: 150px;
-  left: calc(50% - 150px);
+
+.login_img {
+  width: 50%;
+  max-width: 300px;
+  transform: translateY(75px);
+}
+
+/* CSS for form wrapper */
+.wrapper {
+  margin: 50px auto;
+  max-width: 500px;
+  max-height: 800px;
+  height: 400px;
+  margin-top: auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+/* CSS for form inputs */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 50px;
+  font-weight: bold;
  
 }
-p{
-  margin-bottom: 1.7rem;
-}
-form label {
-  display: flex;
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: bold;
-  transform: translateX(50px);
-}
-form input{
-  width: 85%;
-  outline: none;
-  border: none;
-  background: #fff;
-  padding: 12px 14px;
-  margin-bottom: 5px;
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
   border-radius: 20px;
-  border: solid rgb(179, 176, 176);
-}
-button{
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  padding: 8px 0;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  width: 85%;
-  background: rgb(209, 30, 24);
-  color: #fff;
-  cursor: pointer;
+  margin-bottom: -20px;
+  margin-top: -30px;
+ 
   
 }
+
+/* CSS for Let's Start button */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ff000d;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transform: translateY(50px);
+
+}
 button:hover{
-  background: rgba(122, 30, 30, 0.767);
+  background: rgba(245, 46, 46, 0.767);
 }
-.not-member{
-  font-size: 0.8rem;
-  margin-top: 2.5rem;
-  transform: translateX(5px);
+
+/* CSS for not-member text */
+.not-member {
+  text-align: center;
+  font-size: 14px;
+  transform: translateY(60px);
 }
-.not-member a{
-  color: rgb(203, 34, 8);
+
+.not-member a {
+  color: #ff0000;
   text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin: 20px;
+  }
+
+  .login_img {
+    max-width: 250px;
+  }
+
+  form input[type="email"],
+  form input[type="password"] {
+    margin-bottom: -5px;
+  }
+  body{
+    background-image: url("https://sv1.picz.in.th/images/2023/04/21/y0qZVb.jpg");
+    background-size: cover; /* ขยายภาพเต็มพื้นที่ */
+    background-position: center center; /* ให้ภาพอยู่ตรงกลาง */
+    height: 100%; /* กำหนดความสูงของ container */
+  }
+
 }
 a:hover{
   text-decoration: underline;
 }
 .nav_logo{
-  
   position: absolute;
-  top:-20px;
+  top:7px;
   left: calc(50% - 50px);
+  height: px;
+}
+.container-fluid{
+  height: 35px;
 }
