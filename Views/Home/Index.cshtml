@@ -27,7 +27,7 @@
     <button>Let's Start</button>
     
     <div class="not-member">
-      don't have an account <a href="./Signup.cshtml">Sign up</a>
+      don't have an account @Html.ActionLink("Create Account", "Signup", "Home", null, new { @class = "" });
     </div>
   </div>
 </body>
