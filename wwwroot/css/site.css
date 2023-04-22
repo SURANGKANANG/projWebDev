@@ -6,11 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background-image: url('https://sv1.picz.in.th/images/2023/04/21/y0qZVb.jpg');
+  background-image: url('https://sv1.picz.in.th/images/2023/04/22/yzyxyN.jpg');
+  max-width: 100%;
+  max-height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-    
+  background-size: cover;   
 }
 .display_wrapper{
   display: flex;
@@ -85,7 +86,7 @@ button:hover{
 /* CSS for not-member text */
 .not-member {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   transform: translateY(60px);
 }
 
@@ -93,6 +94,7 @@ button:hover{
   color: #ff0000;
   text-decoration: none;
 }
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 600px) {
@@ -104,15 +106,32 @@ button:hover{
     max-width: 250px;
   }
 
-  form input[type="email"],
+  form input[type="email"],ๆ
   form input[type="password"] {
     margin-bottom: -5px;
   }
   body{
-    background-image: url("https://sv1.picz.in.th/images/2023/04/21/y0qZVb.jpg");
-    background-size: cover; /* ขยายภาพเต็มพื้นที่ */
-    background-position: center center; /* ให้ภาพอยู่ตรงกลาง */
-    height: 100%; /* กำหนดความสูงของ container */
+    background-image: url("https://sv1.picz.in.th/images/2023/04/22/yY0Brg.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body{
+    background-image: url("https://sv1.picz.in.th/images/2023/04/22/yY0Brg.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
   }
 
 }
@@ -127,6 +146,7 @@ a:hover{
 }
 .container-fluid{
   height: 35px;
+
 }
 /*หน้า sign up */
 
